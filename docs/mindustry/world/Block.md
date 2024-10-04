@@ -1,11 +1,31 @@
 # Block
-- 类型:public class
-- 描述:~~这就是个Block~~ 所有可建造方块的基础类
+- 路径: mindustry.world
+- 父类: UnlockableContent
+- 实现接口类: Senseable
+- 类型: public class
+- 描述: 所有可建造方块的基础类，提供了一系列大量可使用变量。
 
 
 ### 关于变量
-- 变量1
-- 变量2
+- hasItems
+    > 类型: public boolean
+    >
+    > 作用: 控制方块是否拥有ItemModule，<br>若为true，则是，若为false，则否。
+    >
+    > 默认值: null
+- hasLiquids
+    > 类型: public boolean
+    >
+    > 作用: 控制方块是否拥有LiquidModule，<br>若为true，则是，若为false，则否。
+    >
+    > 默认值: null
+- hasPower
+    > 类型: public boolean
+    >
+    > 作用: 控制方块是否拥有PowerModule，<br>若为true，则是，若为false，则否。
+    >
+    > 默认值: null
+
 
 ### 关于函数
 - 方法1
