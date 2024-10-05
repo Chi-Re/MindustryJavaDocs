@@ -5,5 +5,6 @@
 - mindustry
   - [world](docs/mindustry/world.md)
   - [ui](docs/mindustry/ui.md)
+  - [ctype](docs/mindustry/ctype.md)
 
 
