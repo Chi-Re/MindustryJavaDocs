@@ -8,29 +8,29 @@
 
 ### 关于变量
 - hasItems
-    > 类型: public boolean
-    >
-    > 作用: 控制方块是否拥有ItemModule，<br>若为true，则是，若为false，则否。
-    >
-    > 默认值: null
+> 类型: public boolean
+>
+> 作用: 控制方块是否拥有ItemModule，<br>若为true，则是，若为false，则否。
+>
+> 默认值: null
 - hasLiquids
-    > 类型: public boolean
-    >
-    > 作用: 控制方块是否拥有LiquidModule，<br>若为true，则是，若为false，则否。
-    >
-    > 默认值: null
+> 类型: public boolean
+>
+> 作用: 控制方块是否拥有LiquidModule，<br>若为true，则是，若为false，则否。
+>
+> 默认值: null
 - hasPower
-    > 类型: public boolean
-    >
-    > 作用: 控制方块是否拥有PowerModule，<br>若为true，则是，若为false，则否。
-    >
-    > 默认值: null
+> 类型: public boolean
+>
+> 作用: 控制方块是否拥有PowerModule，<br>若为true，则是，若为false，则否。
+>
+> 默认值: null
 - outputsLiquid
-    > 类型: public boolean
-    >
-    > 作用: null
-    >
-    > 默认值: false
+> 类型: public boolean
+>
+> 作用: null
+>
+> 默认值: false
 
 
 ### 关于方法
