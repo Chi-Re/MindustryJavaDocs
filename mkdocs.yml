@@ -1,0 +1,10 @@
+site_name: Mindustry Docs
+theme:
+  name: material
+  favicon: images/favicon.png
+  logo: images/favicon.png
+  custom_dir: docs/overrides
+  features:
+    - navigation.tracking
+extra_css:
+  - 'stylesheets/style.css'
