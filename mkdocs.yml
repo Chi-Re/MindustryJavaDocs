@@ -1,5 +1,5 @@
-site_name: Mindustry Docs
-repo_url: https://github.com/Chi-Re/MindustryCodeDetails/
+site_name: Mindustry Java Docs
+repo_url: https://github.com/Chi-Re/MindustryJavaDocs/
 theme:
   name: material
   favicon: images/favicon.png
