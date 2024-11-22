@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../Content/">
+        <link rel="prev" href="../../mod/ContentParser/">
       
       
-        <link rel="next" href="../MappableContent/">
+        <link rel="next" href="../../world/Block/">
       
       
       <link rel="icon" href="../../../images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>ContentType - Mindustry Java Docs</title>
+        <title>Item - Mindustry Java Docs</title>
       
     
     
@@ -63,11 +63,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#contenttype" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -99,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              ContentType
+              Item
             
           </span>
         </div>
@@ -399,7 +394,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../../ctype/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -441,7 +436,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../type/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -501,19 +496,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
         
           
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
@@ -527,7 +520,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
             Ctype
@@ -541,7 +534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Content/" class="md-nav__link">
+      <a href="../../ctype/Content/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -559,19 +552,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../ctype/ContentType/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -580,7 +564,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -593,7 +576,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../MappableContent/" class="md-nav__link">
+      <a href="../../ctype/MappableContent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -614,7 +597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../UnlockableContent/" class="md-nav__link">
+      <a href="../../ctype/UnlockableContent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -725,17 +708,19 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" checked>
         
           
           <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
@@ -749,7 +734,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_8">
             <span class="md-nav__icon md-icon"></span>
             Type
@@ -760,10 +745,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../type/Item/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -772,6 +764,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -894,8 +887,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -913,13 +904,9 @@
   
 
 
-<h1 id="contenttype">ContentType</h1>
-<ul>
-<li>路径: <a href="../">mindustry.ctype</a></li>
-<li>类型: public enum</li>
-<li>描述: 这个枚举在游戏的许多地方被用来标识和处理不同类型的游戏内容。(不确定)</li>
-</ul>
-<p>null</p>
+  <h1>Item</h1>
+
+
 
 
 
